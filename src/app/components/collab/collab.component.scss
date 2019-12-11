@@ -1,0 +1,33 @@
+.trello-board-container{
+  max-width:1200px;
+}
+.trello_board{
+  width:100%;
+}
+.collab-section{
+  height:88vh;
+  min-height:550px;
+  max-height:650px;
+  overflow: hidden;
+  background-image: linear-gradient(45deg,#247ad4,#56cad5);
+}
+h3{
+  text-align: center;
+  max-width:600px;
+  line-height:35px;
+  span:last-of-type{
+    margin-top:10px;
+  }
+
+}
+.collab-top{
+  margin:2em;
+}
+.big-button{
+  margin-top:5px;
+  padding:0 1em;
+}
+.component-h1{
+  font-size:3em;
+  margin-bottom:0px;
+}

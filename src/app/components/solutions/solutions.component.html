@@ -1,0 +1,66 @@
+<div class="solutions-section" fxLayoutAlign="center center" fxLayout="row">
+
+    <section fxFlex>
+
+        <div class="step-header">
+            <h1 class="component-h1">Industry Experience</h1>
+        </div>
+
+        <div class="skills-cont">
+            <p class="promo-p">I have experience in a variety of areas in web development, below is an overview of my confidence in the areas i've worked in.</p>
+
+            <div class="star-container" fxLayout="row" fxLayout.lt-sm="column">
+
+                <div fxLayoutGap="0.5em"
+                     fxFlex
+                     fxLayout="column"
+                     fxLayoutAlign="center center">
+                    <h1>Front End Development</h1>
+                    <div class="back-stars">
+                        <div class="stars stars-green fourPointFiveStar"></div>
+                    </div>
+                </div>
+
+                <div fxLayoutGap="0.5em"
+                     fxFlex
+                     fxLayout="column"
+                     fxLayoutAlign="center center">
+                    <h1>Back End Development</h1>
+                    <div class="back-stars">
+                        <div class="stars stars-blue threePointFiveStar"></div>
+                    </div>
+                </div>
+
+                <div fxHide.lt-md fxFlex>
+                    <ng-container *ngTemplateOutlet="devOps"></ng-container>
+                </div>
+
+            </div>
+
+            <div fxHide.gt-sm >
+                <ng-container *ngTemplateOutlet="devOps"></ng-container>
+            </div>
+
+            <div>
+                <button (click)="sidebar.openBar('dskf')" mat-raised-button class="mat-button big-button"><span>Detailed Breakdown</span></button>
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+
+
+
+<ng-template #devOps>
+    <div fxLayoutGap="0.5em"
+         fxLayout="column"
+         fxLayoutAlign="center center">
+        <h1>Dev Ops</h1>
+        <div class="back-stars">
+            <div class="stars stars-yellow threeStar"></div>
+        </div>
+    </div>
+</ng-template>

@@ -1,0 +1,102 @@
+*{
+  color:#eef2f5;
+}
+
+h1{
+  font-size:5em;
+  margin:0px 0px 35px 0px;
+  line-height: 1em;
+}
+h2{
+  font-size: 26px;
+  font-family: "Staatliches", cursive;
+  font-weight: normal;
+}
+mat-tab-group{
+  .back-stars{  }
+}
+article{
+  border-bottom:solid 0.5px #353f4e;
+  //#ff943b
+  padding-bottom:5px;
+}
+mat-tab-header{
+
+}
+
+
+
+
+
+$starsWidth: 165px;
+$starsHeight: 33px;
+$negStarsWidth: 33px;
+$negStarsHeight: -33px;
+
+.stars, .back-stars{
+  width:$starsWidth;
+  height:$starsHeight;
+  display: block;
+}
+.pointFiveStar{
+  width: $starsWidth / 10;
+}
+.oneStar{
+  width: $starsWidth / 5;
+}
+.onePointFiveStar{
+  width: $starsWidth / 3.33333;
+}
+.twoStar{
+  width: $starsWidth / 2.5;
+}
+.twoPointFiveStar{
+  width: $starsWidth / 2;
+}
+.threeStar{
+  width: $starsWidth / 1.66;
+}
+.threePointFiveStar{
+  width: ($starsWidth / 1.42857);
+}
+.fourStar{
+  width: $starsWidth / 1.25;
+}
+.fourPointFiveStar{
+  width: $starsWidth / 1.1111111;
+}
+.fiveStar{
+  width: $starsWidth / 1;
+}
+
+.back-stars{
+  background: url('/assets/img/star.svg');
+  background-size:$starsHeight auto;
+  background-position: 0px $negStarsWidth;
+}
+.stars{
+  background: url('/assets/img/star.svg');
+  background-size:$starsHeight auto;
+}
+.stars-green{
+  background-position: 0px -1px;
+}
+.stars-orange{
+  background-position: 0px ($starsHeight * -1);
+}
+.stars-red{
+  background-position: 0px ($starsHeight * -2);
+}
+.stars-purple{
+  background-position: 0px ($starsHeight * -3);
+}
+.stars-blue{
+  background-position: 0px ($starsHeight * -4);
+}
+.stars-grey{
+  background-position: 0px ($starsHeight * -5);
+}
+.stars-yellow{
+  background-position: 0px ($starsHeight * -6);
+}
+

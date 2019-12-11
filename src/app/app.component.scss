@@ -1,0 +1,12 @@
+mat-sidenav-content{
+}
+:host {
+  display: block;
+}
+mat-sidenav{
+  height:100vh;
+  position:fixed;
+  padding:0em 1em;
+  overflow-y: scroll;
+  background:#161c25;
+}

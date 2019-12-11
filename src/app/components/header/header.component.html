@@ -1,0 +1,35 @@
+<header>
+    <!--class="mat-elevation-z6"-->
+    <mat-toolbar class="mat-elevation-z6 unfixed-nav" id="navigation">
+        <mat-toolbar-row fxLayout="row">
+            <!--<div class="logo-container">-->
+                <!--<span>@Tomompo</span>-->
+            <!--</div>-->
+
+            <div class="header-middle" fxLayout="row" fxFlex>
+                <div fxFlex fxLayoutAlign="start center">
+                    <nav>
+                        <ul>
+                            <li><a fxLayoutAlign="center center" routerLink="blog"><span>Skills</span></a></li>
+                            <li><a fxLayoutAlign="center center" routerLink="blog"><span>Portfolio</span></a></li>
+                            <li><a fxLayoutAlign="center center" routerLink="blog"><span>Badges</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div fxLayoutAlign="end center">
+                    <button mat-button class="contact-button">
+                        <span>CV</span>
+                        <i class="material-icons">cloud_download</i>
+                    </button>
+                </div>
+            </div>
+
+            <div fxHide>
+                <button mat-icon-button>
+                    <mat-icon aria-hidden="false" aria-label="Example home icon">menu</mat-icon>
+                </button>
+            </div>
+
+        </mat-toolbar-row>
+    </mat-toolbar>
+</header>
